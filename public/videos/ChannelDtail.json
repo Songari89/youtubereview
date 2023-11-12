@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "icgP__WW4K5Vm11RIOt8jMqrBlw",
+      "id": "CRXiA3h1no_PFkb1JCP0yMA",
+      "snippet": {
+        "title": "string",
+        "description": "string",
+        "customUrl": "string",
+        "publishedAt": "datetime",
+        "thumbnails": {
+          "default": {
+            "url": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc6%2F1f%2F1e%2Fc61f1eb52a295ff83a0e77fae0d1b728.jpg&type=sc960_832",
+            "width": 88,
+            "height": 88
+          }
+        }
+      }
+    }
+  ],
+  "defaultLanguage": "string",
+  "localized": {
+    "title": "string",
+    "description": " string"
+  },
+  "country": " string",
+  "contentDetails": {
+    "relatedPlaylists": {
+      "likes": "string",
+      "favorites": "string",
+      "uploads": "string"
+    }
+  }
+}
