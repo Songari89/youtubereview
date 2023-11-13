@@ -1,0 +1,61 @@
+@media (max-width: 768px){
+  .container{
+    width: 90vw;
+  }
+  .header {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px){
+  .container{
+    flex-wrap: wrap;
+  }
+} 
+
+
+@value basicfont: 1.2rem ;
+@value brand: #FF0000;
+
+.header{
+  width: 100%; 
+   /* min-width:768px; */
+  color: white;
+  font-size: basicfont;
+  padding: 1rem;
+  border-bottom: 1px solid #999;  
+}
+.container {
+  width: 60vw;
+  max-width:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: clounm ;
+
+
+}
+.logobox{
+  display:flex;
+  align-items: center;
+  color: #ebebeb;
+  text-decoration: none;
+}
+.logobox>h2 {
+  padding: 0 0 0.2rem 0;
+  margin: 0 0.5rem;
+}
+.logo{
+  color: brand;
+  font-size: 2.5rem;
+}
+.form{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+.form>button{
+  font-size: 1.2rem;
+  padding: 0 0.2rem;
+}
+.form>input {
+  font-size: basicfont;
+}

@@ -1,0 +1,6 @@
+@value color: #fff;
+
+.container{
+  background-color: #333 ;
+  color: color;
+}
