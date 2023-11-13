@@ -1,6 +1,18 @@
-@value color: #fff;
+@value brand,bgcolor,bgfontcolor from '../util/color.css';
 
 .container{
-  background-color: #333 ;
-  color: color;
+  display: grid;
+  place-items:center;
+  border-top: 1px solid #999;
+  padding: 2rem 0 0 0;
+}
+.list {
+  margin:0;
+  width:100%;
+  padding:0;
+  list-style: none;
+  color: bgfontcolor;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(320px, 1fr));
+  gap:1rem;
 }
