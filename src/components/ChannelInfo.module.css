@@ -1,0 +1,30 @@
+@value infocolor, basicfont,brand,bgcolor,bgfontcolor from '../util/color.css';
+
+.channelinfo{
+  display:flex;
+  align-items:center;
+  font-size: basicfont;
+  color: infocolor;
+  font-weight:600;
+}
+.channelinfo>img{
+  width:4.5rem;
+  height:4.5rem;
+  border-radius:50%;
+  margin: 0 1rem;
+}
+.subimage{
+  background-color: brand;
+  width:4.5rem;
+  height:4.5rem;
+  border-radius:50%;
+  margin: 0 1rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.subimage>p{
+  color:bgfontcolor;
+  font-size: 3rem;
+  margin: 0 0 0.2rem 0;
+}

@@ -2,11 +2,12 @@ import React from "react";
 import styles from "./VideoCard.module.css";
 import { useNavigate } from "react-router-dom";
 
+
 export default function VideoCard({ video }) {
   const { thumbnails, channelTitle, title, publishedAt } = video.snippet;
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate(`/videos/watch/${video.id}`, { state: { video: video } });
+    navigate(`/videos/watch/${video.id}`, { state: { video } });
   };
   return (
     <li onClick={handleClick} className={styles.list}>

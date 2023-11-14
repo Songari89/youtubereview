@@ -40,6 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-icons", "virtual:eca2192d205e151fbe2580739e75130cbd928996cfe78da785df805ede65dac95a99b3ecd1ede2ba591fcb53b6bbe0fbfa79eb6ed5073615bbd16d2a865bae23#npm:4.11.0"],\
             ["react-router-dom", "virtual:eca2192d205e151fbe2580739e75130cbd928996cfe78da785df805ede65dac95a99b3ecd1ede2ba591fcb53b6bbe0fbfa79eb6ed5073615bbd16d2a865bae23#npm:6.18.0"],\
             ["react-scripts", "virtual:eca2192d205e151fbe2580739e75130cbd928996cfe78da785df805ede65dac95a99b3ecd1ede2ba591fcb53b6bbe0fbfa79eb6ed5073615bbd16d2a865bae23#npm:5.0.1"],\
+            ["timeago", "npm:1.6.7"],\
+            ["timeago.js", "npm:4.0.2"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -11594,6 +11596,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["jquery", [\
+        ["npm:3.7.1", {\
+          "packageLocation": "./.yarn/cache/jquery-npm-3.7.1-eeeac0f21e-4370b8139d.zip/node_modules/jquery/",\
+          "packageDependencies": [\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["js-tokens", [\
         ["npm:4.0.0", {\
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",\
@@ -16991,6 +17002,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["timeago", [\
+        ["npm:1.6.7", {\
+          "packageLocation": "./.yarn/cache/timeago-npm-1.6.7-c284151370-9bc19da8a2.zip/node_modules/timeago/",\
+          "packageDependencies": [\
+            ["timeago", "npm:1.6.7"],\
+            ["jquery", "npm:3.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["timeago.js", [\
+        ["npm:4.0.2", {\
+          "packageLocation": "./.yarn/cache/timeago.js-npm-4.0.2-e87d64f9a3-c785a06988.zip/node_modules/timeago.js/",\
+          "packageDependencies": [\
+            ["timeago.js", "npm:4.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["tmpl", [\
         ["npm:1.0.5", {\
           "packageLocation": "./.yarn/cache/tmpl-npm-1.0.5-d399ba37e2-cd922d9b85.zip/node_modules/tmpl/",\
@@ -18378,6 +18408,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-icons", "virtual:eca2192d205e151fbe2580739e75130cbd928996cfe78da785df805ede65dac95a99b3ecd1ede2ba591fcb53b6bbe0fbfa79eb6ed5073615bbd16d2a865bae23#npm:4.11.0"],\
             ["react-router-dom", "virtual:eca2192d205e151fbe2580739e75130cbd928996cfe78da785df805ede65dac95a99b3ecd1ede2ba591fcb53b6bbe0fbfa79eb6ed5073615bbd16d2a865bae23#npm:6.18.0"],\
             ["react-scripts", "virtual:eca2192d205e151fbe2580739e75130cbd928996cfe78da785df805ede65dac95a99b3ecd1ede2ba591fcb53b6bbe0fbfa79eb6ed5073615bbd16d2a865bae23#npm:5.0.1"],\
+            ["timeago", "npm:1.6.7"],\
+            ["timeago.js", "npm:4.0.2"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\

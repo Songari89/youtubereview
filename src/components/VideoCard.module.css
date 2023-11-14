@@ -1,3 +1,5 @@
+@value infocolor from '../util/color.css';
+
 .list>img{
   width:100%;
 }
@@ -9,10 +11,10 @@ p{
   font-weight: 600;
 }
 .channelid{
-  color: #aaa;
+  color: infocolor;
   font-weight: 500;
 }
 .publish{
-  color: #aaa;
+  color: infocolor;
   font-size: 0.8rem;
 }

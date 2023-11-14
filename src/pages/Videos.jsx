@@ -4,10 +4,14 @@ import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import VideoCard from "../components/VideoCard";
 import { Youtube } from "../api/youtube";
+import { useYoutubeAPI } from "../context/YoutubeAPIContext";
+
+
 
 
 export default function Videos() {
   const { keyword } = useParams();
+  const { youtube } = useYoutubeAPI();
   const {
     error,
     isLoading,
@@ -15,7 +19,6 @@ export default function Videos() {
   } = useQuery({
     queryKey:["videos", keyword],  //videos라는 API키
     queryFn: () => {
-      const youtube = new Youtube();
       return youtube.search(keyword)
     }
   })
