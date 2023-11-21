@@ -20,7 +20,7 @@
 /* @value brand: #FF0000; */
 
 .header {
-  width: 100%;
+  width: 100vw;
   font-size: basicfont;
   padding: 1rem;
 }

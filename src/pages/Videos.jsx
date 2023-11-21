@@ -3,7 +3,6 @@ import styles from "./Videos.module.css";
 import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import VideoCard from "../components/VideoCard";
-import { Youtube } from "../api/youtube";
 import { useYoutubeAPI } from "../context/YoutubeAPIContext";
 
 
@@ -20,7 +19,8 @@ export default function Videos() {
     queryKey:["videos", keyword],  //videos라는 API키
     queryFn: () => {
       return youtube.search(keyword)
-    }
+      
+    },staleTime: 1000 * 60 * 5
   })
   return (
   <div className={styles.container}>

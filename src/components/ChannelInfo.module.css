@@ -1,9 +1,9 @@
-@value infocolor, basicfont,brand,bgcolor,bgfontcolor from '../util/color.css';
+@value infocolor,brand,bgcolor,bgfontcolor from '../util/color.css';
 
 .channelinfo{
   display:flex;
   align-items:center;
-  font-size: basicfont;
+  font-size: 1.2rem;
   color: infocolor;
   font-weight:600;
 }
